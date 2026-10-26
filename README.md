@@ -29,14 +29,4 @@ pip install -r requirements.txt
 # train the main model
 python main_DRIMed.py --model DRIMed
 
-# train an ablation variant
-python main_DRIMed.py --model DRIMed_wo_DARC
-
-# train a baseline
-python main_DRIMed.py --model GAMENet
-
-# test with a checkpoint
-python main_DRIMed.py --model DRIMed --test --resume saved/xxx.model
 ```
-
-Checkpoints are saved under `saved/`.
