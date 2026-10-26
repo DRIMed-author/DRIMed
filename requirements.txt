@@ -1,0 +1,7 @@
+torch>=1.13
+numpy
+dill
+scikit-learn
+prettytable
+einops
+tensorboard
